@@ -1,0 +1,106 @@
+body, h1, h2, h3, h4, h5, h6, p  {
+    font-family: "Segoe UI", Arial, sans-serif;
+  }
+
+  .titulo-Principal{
+    color: #7814FF;
+    text-transform: uppercase;
+    box-shadow:  10px 10px 12px #707070;
+    border: 2px solid #000000;
+    padding-left: 30px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    /* color: #0000FF; */
+    /* color: #707070; */
+    /* color: #FFFFFF; */
+    /* color: #000000; */
+  }
+
+  .tabela, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  th {
+    font-size: 30px;
+    background-color: #7814FF;
+    color: #ffffff;
+  }
+  td {
+    font-size: 30px;
+    background-color: #8653ca;
+    color: #ffffff;
+  }
+  .texto{
+    color: #707070;
+    font-size: 20px;
+  }
+
+  .fechar-button {
+    position: absolute;
+    top: 152px;
+    right: 50px;
+    padding: 5px 10px;
+    background-color: #707070;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+  }
+
+  .botao{
+    background-color: #7814FF;
+    transition: background-color 1s ease 0s;
+    color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #707070;
+    border: none;
+    cursor: pointer;
+    padding: 7px;
+    display: inline;
+  }
+
+  .botao:hover{
+    background-color: #FFFFFF;
+    color: #7814FF;
+
+  }
+
+  #container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+
+  #esquerdo-painel {
+    flex: 1;
+    background-color: #FFFFFF;
+    border: 5px solid #7814FF;
+    padding: 10px;
+    margin-top: 29px;
+  }
+
+  #direito-painel {
+    flex: 2;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  #iframe-menu {
+    width: 100%;
+    height: 100%;
+  }
+
+  #iframe-menu iframe {
+    width: 100%;
+    height: 100%;
+    border: 5px solid #7814FF;
+  }
+
+  #apresentacao{
+    color: #7814FF;
+  }

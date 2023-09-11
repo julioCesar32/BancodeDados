@@ -1,0 +1,138 @@
+body{
+    background: rgb(223, 225, 235)
+}
+
+fieldset{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 1em;
+    font-weight: bold;
+    border-color: #1614149c;
+    border-style: none;
+    border-width: 10px;
+    background-color: #b92e2e;
+    margin: 100px;
+    position: relative;
+    left: 8em;
+    z-index: 10;
+    bottom: 70px;
+    width: 80em;
+
+}
+
+fieldset h1{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+
+#imagem{
+    height: 3.5em;
+    width: 10em;
+}
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 2.5em;
+    left: 43em;
+	right: 50em;
+}
+
+nav li:hover{
+    cursor: pointer;    
+    text-decoration: underline;
+    color: rgb(#b92e2e,#eb1010, #ff0404);
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+
+.enviar{
+    background-color: rgb(243, 18, 60);
+    color: aliceblue;
+    position: relative;
+    left: 35em;
+    bottom: 145px;
+    width: 35%;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#botaoCadastro{
+    position: relative;
+    left: 40em;
+    width: 27em;
+}
+
+.cadastro p{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: justify;
+    font-size: 20px;
+    position: relative;
+    left: 27em;
+
+}
+
+.consultaFormulario p{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: justify;
+    font-size: 20px;
+    position: relative;
+    left: 27em;
+}
+
+#informacoes{
+    position: relative;
+    left: 31em;
+    width: 19em;
+    font-size: 17px;
+}
+
+.consulta{
+    background-color: rgb(243, 18, 60);
+    color: aliceblue;
+    position: relative;
+    left: 35em;
+    bottom: 145px;
+    width: 35%;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 2em;
+}
+
+.pesquisar:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 2em;
+}

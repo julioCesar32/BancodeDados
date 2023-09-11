@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LojasIdeal - tudo, a toda hora, em qualquer lugar :)</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="lontra.png" /> 
+</head>
+<body>
+    <header id="meucabecalho">
+        <div class="caixa">
+            <img src="lontra.png" id="lontrinha">
+            <h1>LojasIdeal :)</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home & Produtos</a></li>
+                    <li><a href="cadastro.html">Area de Cadastro</a></li>
+                    <li><a href="consulta.html">Area de Consultas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script src="main.js"></script>
+    <main>
+        <h1 class="tabelasTitulo">Cadastro de Produto</h1>
+        <form method="post" action="cadastroProduto.php">
+                <fieldset class="Produtoformulario">
+                    <div class="conteudo">
+                        <label>
+                            <p>1)  <u>Marca do produto: </u></p>
+                            <input type="text" name="MARCA" placeholder="Marca do produto"/>
+                        </label>
+                        <label>
+                            <p>2)  <u>Quantidade no estoque: </u></p>
+                            <input type="tel" name="QUANTIDADE" placeholder="Quantidade no estoque"/>
+                        </label>
+                        <label>
+                            <p>3)  <u>Preço do produto: </u></p>
+                            <input type="number" min="1" name="PRECO" step="any" placeholder="Preço" />
+                        </label>
+                        <label>
+                            <p>4)  <u>Categoria do produto: </u></p>
+                            <input type="text" name="CATEGORIA" placeholder="Categoria do produto"/>
+                        </label>
+                    </div>
+                </fieldset>
+            <input type="submit" class="Produtocadastro" value="Cadastro"/>
+        </form>
+        <h1 class="tabelasTitulo">Cadastro de Pedido</h1>
+        <form method="post" action="cadastroPedido.php">
+                <fieldset class="Produtoformulario">
+                    <div class="conteudo">
+                        <label>
+                            <p>1)  <u>Valor do frete: </u></p>
+                            <input type="tel" name="FRETE" placeholder="frete do produto"/>
+                        </label>
+                        <label>
+                            <p>2)  <u>ID do cliente </u></p>
+                            <input type="tel" name="IDC" placeholder="Quantidade no estoque"/>
+                        </label>
+                        <label>
+                            <p>3)  <u>ID do Vendedor </u></p>
+                            <input type="tel" name="IDV" step="any" placeholder="Preço" />
+                        </label>
+                        <label>
+                            <p>4)  <u>Data de entrega</u></p>
+                            <input type="date" name="DATA" />
+                        </label>
+                    </div>
+                </fieldset>
+            <input type="submit" class="Produtocadastro" value="Cadastro"/>
+        </form>
+    </main>
+</body>

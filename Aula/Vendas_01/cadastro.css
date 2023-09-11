@@ -1,0 +1,536 @@
+body{
+    background: #B0C4DE;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color: #1c4966;
+    z-index: 25;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+#lontrinha{
+    width: 6em;
+	height: 5em;
+	position: relative;
+	top: 1.5em;
+	left: 2em;
+}
+
+.caixa h1{
+	font-family: fantasy;
+	position: relative;
+	left: 5em;
+	bottom: 1em;
+	font-size: 200%;
+	color: #e27602;
+
+}
+
+.tabelasTitulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    left: 15.8em;
+    top: 1.5em;
+    border: 5px solid #e27602;
+    width: 20%;
+    color: #1c4966;
+    background-color: #E27602;
+}
+
+nav{
+    position: relative;
+	border: #000000;
+	bottom: 3em;
+	left: 42em;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 25px 0 0px;  
+}
+
+nav a{
+	text-decoration: none;
+	position:relative;
+	right: 12em;
+	bottom:0.5em;
+	border: solid;
+	background-color: aliceblue;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #000000;
+	font-size: 20px;
+	
+}
+
+nav a:hover {
+	text-transform: uppercase;
+	color: #B0C4DE;
+	font-weight: bold;
+    transition: 1s;
+	border-radius: 80em;
+	box-shadow: 2px 2px 5px 2px #000000;
+}
+
+
+.Produtoformulario{
+    background-color: #1c4966;
+    border: 15px solid #E27602;
+    position: relative;
+    left: 21em;
+    top: 0.1em;
+    height: 100%;
+    width: 55%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 1em;
+    font-weight: bold;
+    border-style: inset;
+    border-width: 10px;
+    margin: 100px 0 100px 0;
+    bottom: 70px;
+
+}
+
+.cadastroCliente{
+    background-color: #1c4966;
+    border: 15px solid #E27602;
+    position: relative;
+    left: 21em;
+    top: 0.1em;
+    height: 100%;
+    width: 55%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 1em;
+    font-weight: bold;
+    border-style: inset;
+    border-width: 10px;
+    margin: 100px 0 100px 0;
+    z-index: 10;
+    bottom: 70px;
+}
+
+.cadastroVendedor{
+    background-color: #1c4966;
+    border: 15px solid #E27602;
+    position: relative;
+    left: 21em;
+    top: 0.1em;
+    height: 100%;
+    width: 55%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 1em;
+    font-weight: bold;
+    border-style: inset;
+    border-width: 10px;
+    margin: 100px 0 100px 0;
+    z-index: 10;
+    bottom: 70px;
+
+}
+
+.Produtoformulario p {
+    display: flex;
+    text-align: justify;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    color: coral;
+    font-weight: bolder;
+    font-size: 21px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    left: 11.9em;
+}
+
+.cadastroCliente p {
+    display: flex;
+    text-align: justify;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    color: coral;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    position: relative;
+    left: 9.9em;
+}
+
+.cadastroVendedor p{
+    display: flex;
+    text-align: justify;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    color: coral;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    position: relative;
+    left: 9.9em;
+}
+
+.Produtoformulario input{
+    text-align: center;
+    position: relative;
+    width: 35%;
+    height: 5%;
+    left: 20.8em;
+}
+
+.cadastroCliente input{
+    text-align: center;
+    position: relative;
+    width: 35%;
+    height: 5%;
+    left: 20.8em;
+}
+
+.cadastroVendedor input{
+    text-align: center;
+    position: relative;
+    width: 35%;
+    height: 5%;
+    left: 20.8em;
+
+}
+
+.consultaCliente{
+    background-color: #1c4966;
+    border: 15px solid #E27602;
+    position: relative;
+    left: 4em;
+    bottom: 2.1em;
+    height: 100%;
+    width: 20%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 1em;
+    font-weight: bold;
+    border-style: inset;
+    border-width: 10px;
+    margin: 100px 0 100px 0;
+    z-index: 10;
+}
+
+.consultaCliente p{
+    display: flex;
+    text-align: justify;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    color: coral;
+    font-weight: bolder;
+    position: relative;
+    left: 3em;
+    margin-bottom: 8px;
+    margin-top: 8px;   
+
+}
+
+.consultaCliente input{
+    text-align: center;
+    width: 100%;
+    height: 5%;
+}
+
+.consultaProduto {
+    background-color: #1c4966;
+    border: 15px solid #E27602;
+    position: relative;
+    left: 60em;
+    bottom: 84.5em;
+    height: 100%;
+    width: 20%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 1em;
+    font-weight: bold;
+    border-style: inset;
+    border-width: 10px;
+    margin: 100px 0 100px 0;
+    z-index: 10;
+}
+
+.consultaProduto p {
+    display: flex;
+    text-align: justify;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    color: coral;
+    font-weight: bolder;
+    position: relative;
+    left: 3em;
+    margin-bottom: 5px;
+    margin-top: 5px;   
+}
+
+.consultaProduto input{
+    text-align: center;
+    width: 100%;
+    height: 5%;
+}
+
+.consultaPedido{
+    background-color: #1c4966;
+    border: 15px solid #E27602;
+    position: relative;
+    left: 60em;
+    bottom: 92.8em;
+    height: 100%;
+    width: 20%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 1em;
+    font-weight: bold;
+    border-style: inset;
+    border-width: 10px;
+}
+
+.consultaPedido p{
+    display: flex;
+    text-align: justify;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    color: coral;
+    font-weight: bolder;
+    position: relative;
+    left: 3em;
+    margin-bottom: 5px;
+    margin-top: 5px;   
+}
+
+.consultaPedido input{
+    text-align: center;
+    width: 100%;
+    height: 5%;
+}
+
+.consultaVendedor{
+    background-color: #1c4966;
+    border: 15px solid #E27602;
+    position: relative;
+    left: 31.9em;
+    bottom: 42.7em;
+    height: 100%;
+    width: 20%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 1em;
+    font-weight: bold;
+    border-style: inset;
+    border-width: 10px;
+    z-index: 10;
+}
+
+.consultaVendedor p{
+    display: flex;
+    text-align: justify;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    color: coral;
+    font-weight: bolder;
+    position: relative;
+    left: 3em;
+    margin-bottom: 8px;
+    margin-top: 8px;   
+
+}
+
+.consultaVendedor input{
+    text-align: center;
+    width: 100%;
+    height: 5%;
+}
+
+.cadastro{
+    background-color: #1c4966;
+    color: aliceblue;
+    position: relative;
+    left: 39.5em;
+    bottom: 4.6em;
+    width: 16%;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.cadastro:hover{
+    background-color: #8E1600;
+    -webkit-transition: background 1s 0s ease;
+    -moz-transition: background 1s 0s ease;
+    -o-transition: background 1s 0s ease;
+    transition: background 1s 0s ease;
+}
+
+
+#ProdutoePedido{
+    position: relative;
+    left: 54em;
+	bottom: 63.5em;
+}
+
+#Vendedor{
+    position: relative;
+    left: 31.8em;
+	bottom: 35.2em;
+}
+
+#Clientes{
+    position: relative;
+    top: 2.3em;
+    left: 9em;
+}
+
+.Produtocadastro{
+    background-color: #1c4966;
+    color: aliceblue;
+    position: relative;
+    left: 44.5em;
+    bottom: 4em;
+    width: 15%;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Produtocadastro:hover{
+    background-color: #8E1600;
+    -webkit-transition: background 1s 0s ease;
+    -moz-transition: background 1s 0s ease;
+    -o-transition: background 1s 0s ease;
+    transition: background 1s 0s ease;
+}
+
+.consulta{
+    background-color: #1c4966;
+    color: aliceblue;
+    position: relative;
+    left: 8em;
+    bottom: 7em;
+    width: 15%;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.consulta:hover{
+    background-color: #8E1600;
+    -webkit-transition: background 1s 0s ease;
+    -moz-transition: background 1s 0s ease;
+    -o-transition: background 1s 0s ease;
+    transition: background 1s 0s ease;
+}
+
+
+.consulta2{
+    background-color: #1c4966;
+    color: aliceblue;
+    position: relative;
+    left: 34em;
+    bottom: 39em;
+    width: 15%;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.consulta2:hover{
+    background-color: #8E1600;
+    -webkit-transition: background 1s 0s ease;
+    -moz-transition: background 1s 0s ease;
+    -o-transition: background 1s 0s ease;
+    transition: background 1s 0s ease;
+}
+
+.consulta3{
+    background-color: #1c4966;
+    color: aliceblue;
+    position: relative;
+    left: 94em;
+    bottom: 106.4em;
+    width: 12%;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.consulta3:hover{
+    background-color: #8E1600;
+    -webkit-transition: background 1s 0s ease;
+    -moz-transition: background 1s 0s ease;
+    -o-transition: background 1s 0s ease;
+    transition: background 1s 0s ease;
+}
+
+.consulta4{
+    background-color: #1c4966;
+    color: aliceblue;
+    position: relative;
+    left: 94em;
+    bottom: 107.7em;
+    width: 12%;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.consulta4:hover{
+    background-color: #8E1600;
+    -webkit-transition: background 1s 0s ease;
+    -moz-transition: background 1s 0s ease;
+    -o-transition: background 1s 0s ease;
+    transition: background 1s 0s ease;
+}
+
+.ConsultaTitulos{
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    border: 5px solid #E27602;
+    width: 10%;
+    background-color: #E27602;
+}
+
+.formularios{
+    position: relative;
+    left: 9em;
+}
+.conteudo{
+    position: relative;
+    left: 5em;
+}
+
+@media only screen and (min-width:768px){
+    .caixa .formularios .consultaVendedor .consultaProduto .consultaCliente .consultaPedido{
+        width: 100%;
+    }
+}

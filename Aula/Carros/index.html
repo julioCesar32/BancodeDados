@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>🚗Consulta de carros🚗</title>
+</head>
+    <body>
+        <div class="cadastro">
+            <form method="post" action="connectCarros.php">
+                <fieldset>
+                    <center><h1>Cadastro</center></h1>
+                    <label>
+                        <p>1) Informe marca do carro</p>
+                        <input id="informacoes" type="text" name="MARCA" placeholder="Marca do carro" required>
+                    </label>
+                    <p>2) Selecione o Ano Modelo:</p>
+                        <select id = "informacoes" name="ANOMOD">
+                            <option selected="selected"></option>
+                            <option>2022</option>
+                            <option>2021</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option>2010</option>
+                            <option>2009</option>
+                            <option>2008</option>
+                            <option>2007</option>
+                            <option>2006</option>
+                            <option>2005</option>
+                            <option>2004</option>
+                            <option>2003</option>
+                            <option>2002</option>
+                            <option>2001</option>
+                            <option>2000</option>
+                            <option>1999</option>
+                            <option>1998</option>
+                            <option>1997</option>
+                            <option>1996</option>
+                            <option>1995</option>
+                            <option>1994</option>
+                            <option>1993</option>
+                            <option>1992</option>
+                            <option>1991</option>
+                            <option>1990</option>
+                            <option>1989</option>
+                        </select>
+                        <label>
+                            <p>3) Informe a Placa do carro</p>
+                            <input id="informacoes" type="text" name="PLACA" placeholder="XXX-0000" required>
+                        </label>
+                        <label>
+                            <p>4) Informe Renavam do carro</p>
+                            <input id="informacoes" type="text" name="RENAVAM" placeholder="Renavam" required>
+                        </label>
+                        <label>
+                            <p>5) Informe a Cor do carro</p>
+                            <input id="informacoes" type="text" name="COR" placeholder="Cor do carro" required>
+                        </label>
+                </fieldset>
+                <input type="submit" id="botaoCadastro" value="Enviar formulario" class="enviar">
+            </form>
+        </div>
+        <div class="consultaFormulario">
+            <form method="post" action="Consulta_carros.php">
+                <fieldset>
+                    <center><h1>Como deseja consultar?</center></h1>
+                        <p>1)Id do carro</p>
+                        <input id="informacoes" type="number" name="PESQUISA[]" placeholder="Digite o ID do carro" />
+                        <p>2)Marca do carro:</p>
+                        <input id="informacoes" type="text" name="PESQUISA[]" placeholder="Digite a marca do carro" />
+                        <p>3)Selecione o Ano Modelo:</p>
+                            <select id="informacoes" name="PESQUISA[]">
+                                <option selected="selected"></option>
+                                <option>2022</option>
+                                <option>2021</option>
+                                <option>2020</option>
+                                <option>2019</option>
+                                <option>2018</option>
+                                <option>2017</option>
+                                <option>2016</option>
+                                <option>2015</option>
+                                <option>2014</option>
+                                <option>2013</option>
+                                <option>2012</option>
+                                <option>2011</option>
+                                <option>2010</option>
+                                <option>2009</option>
+                                <option>2008</option>
+                                <option>2007</option>
+                                <option>2006</option>
+                                <option>2005</option>
+                                <option>2004</option>
+                                <option>2003</option>
+                                <option>2002</option>
+                                <option>2001</option>
+                                <option>2000</option>
+                                <option>1999</option>
+                                <option>1998</option>
+                                <option>1997</option>
+                                <option>1996</option>
+                                <option>1995</option>
+                                <option>1994</option>
+                                <option>1993</option>
+                                <option>1992</option>
+                                <option>1991</option>
+                                <option>1990</option>
+                                <option>1989</option>
+                            </select>
+                        </p>
+                        <p>4)Placa do carro:</p>
+                        <input id="informacoes" type="text" name="PESQUISA[]" placeholder="Digite a Placa do carro" />
+                        <p>5)Renavam do carro:</p>
+                        <input id="informacoes" type="text" name="PESQUISA[]" placeholder="Digite o Renavam do carro" />
+                        <p>6)Cor do carro:</p>
+                        <input id="informacoes" type="text" name="PESQUISA[]" placeholder="Digite a cor do carro" />
+                </fieldset>
+                <input type="submit" id="botaoCadastro" value="Consultar" class="consulta">
+            </form>
+        </div>
+    </body>
+</html>

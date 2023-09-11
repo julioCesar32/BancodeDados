@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LojasIdeal - tudo, a toda hora, em qualquer lugar :)</title>
+    <link rel="stylesheet" href="cadastro.css"/>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="shortcut icon" href="lontra.png"/> 
+</head>
+<body>
+    <header id="meucabecalho">
+        <div class="caixa" >
+            <img src="lontra.png" id="lontrinha">
+            <h1>LojasIdeal :)</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home & Produtos</a></li>
+                    <li><a href="produto.html">Cadastro de Produtos</a></li>
+                    <li><a href="cadastro.html">Area de Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script src="main.js"></script>
+    <div class="formularios">
+        <h1 class="ConsultaTitulos" id="Clientes">Consulta de Clientes</h1>
+        <form method="post" action="consulta.php">
+            <fieldset class="consultaCliente">
+                <label>
+                    <p>1) <u> Informe o seu ID</u></p>
+                    <input type="tel" name="TIPO[]" placeholder="ID">
+                </label>
+                <label>
+                    <p>2) <u> Informe o seu nome</u></p>
+                    <input type="text" name="TIPO[]" placeholder="Nome">
+                </label>
+                <label>
+                    <p>3) <u> Informe o seu sobrenome</u></p> 
+                    <input type="text" name="TIPO[]" placeholder="Sobrenome">
+                </label>
+                <label>
+                    <p>4) <u> Informe data de nascimento</u></p>
+                        <input type="date" placeholder="AAAA/MM/DD" name="TIPO[]"/>
+                </label>
+                <label>
+                    <p>5) <u>Informe o seu RG</u></p>
+                    <input type="tel" maxlength="7" name="TIPO[]" placeholder="RG">
+                </label>
+                <label>
+                    <p>6) <u>Informe seu telefone</u></p>
+                    <input type="tel" name="TIPO[]" maxlength="11" placeholder="(XX) XXXXX-XXXX">
+                </label>
+                <label>
+                    <p>7) <u>Informe seu Email</u></p>
+                    <input type="email" name="TIPO[]" placeholder="Seuemail@">
+                </label>
+                <label>
+                    <p>8) <u>Informe seu endereço</u></p>
+                    <input type="text" name="TIPO[]" placeholder="Endereço">
+                </label>
+            </fieldset>
+            <input type="submit" value="Consultar" class="consulta">
+        </form>
+
+        <h1 class="ConsultaTitulos" id="Vendedor">Consulta de Vendedor</h1>
+        <form method="post" action="consultaVendedores.php">
+            <fieldset class="consultaVendedor">
+                <label>
+                    <p>1) <u> Informe o seu ID</u></p>
+                    <input type="tel" name="TIPO[]" placeholder="ID">
+                </label>
+                <label>
+                    <p>2) <u> Informe o seu nome</u></p>
+                    <input type="text" name="TIPO[]" placeholder="Nome">
+                </label>
+                <label>
+                    <p>3) <u> Informe o seu sobrenome</u></p> 
+                    <input type="text" name="TIPO[]" placeholder="Sobrenome">
+                </label>
+                <label>
+                    <p>4) <u> Informe data de nascimento</u></p>
+                        <input type="date" placeholder="AAAA/MM/DD" name="TIPO[]"/>
+                </label>
+                <label>
+                    <p>5) <u>Informe o seu RG</u></p>
+                    <input type="tel" maxlength="7" name="TIPO[]" placeholder="RG">
+                </label>
+                <label>
+                    <p>6) <u>Informe seu CPF</u></p>
+                    <input type="tel" name="TIPO[]" maxlength="11" placeholder="(XX) XXXXX-XXXX">
+                </label>
+                <label>
+                    <p>7) <u>Informe seu telefone</u></p>
+                    <input type="tel" name="TIPO[]" maxlength="11" placeholder="(XX) XXXXX-XXXX">
+                </label>
+                <label>
+                    <p>8) <u>Informe seu Email</u></p>
+                    <input type="email" name="TIPO[]" placeholder="Seuemail@">
+                </label>
+            </fieldset>
+            <input type="submit" value="Consultar" class="consulta2">
+        </form>
+
+        <h1 class="ConsultaTitulos" id="ProdutoePedido">Consulta de Produtos e Pedidos</h1>
+        <form method="post" action="consultaProdutos.php">
+            <fieldset class="consultaProduto">
+                <label>
+                    <p>1)  <u>Marca do produto: </u></p>
+                    <input type="text" name="TIPO[]" placeholder="Marca do produto"/>
+                </label>
+                <label>
+                    <p>2)  <u>Quantidade no estoque: </u></p>
+                    <input type="tel" name="TIPO[]" placeholder="Quantidade no estoque"/>
+                </label>
+                <label>
+                    <p>3)  <u>Preço do produto: </u></p>
+                    <input type="number" min="1" name="TIPO[]" step="any" placeholder="Preço" />
+                </label>
+                <label>
+                    <p>4)  <u>Categoria do produto: </u></p>
+                    <input type="text" name="TIPO[]" placeholder="Categoria do produto"/>
+                </label>
+            </fieldset>
+            <input type="submit" value="Consultar" class="consulta3">
+        </form>
+
+        <form method="post" action="consultaPedido.php">
+            <fieldset class="consultaPedido">
+                <label>
+                    <p>1)  <u>ID do pedido: </u></p>
+                    <input type="text" name="TIPO[]" placeholder="ID do pedido"/>
+                </label>
+                <label>
+                    <p>2)  <u>ID do cliente: </u></p>
+                    <input type="tel" name="TIPO[]" placeholder="ID do cliente"/>
+                </label>
+                <label>
+                    <p>3)  <u>ID do Vendedor: </u></p>
+                    <input type="tel" name="TIPO[]" placeholder="ID do Vendedor" />
+                </label>
+                <label>
+                    <p>4)  <u>Data de entrega: </u></p>
+                    <input type="date" name="TIPO[]"/>
+                </label>
+            </fieldset>
+            <input type="submit" value="Consultar" class="consulta4">
+        </form>
+    </div>
+</body>
